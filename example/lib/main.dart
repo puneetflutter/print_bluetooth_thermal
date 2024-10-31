@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('Plugin '),
           actions: [
             PopupMenuButton(
               elevation: 3.2,
@@ -115,8 +115,7 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ],
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                Wrap(
                   children: [
                     ElevatedButton(
                       onPressed: () {
